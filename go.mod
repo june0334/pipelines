@@ -55,14 +55,10 @@ require (
 	k8s.io/apimachinery v0.24.3
 	k8s.io/client-go v0.24.3
 	k8s.io/code-generator v0.23.3
-	k8s.io/kubernetes v0.17.9
+	k8s.io/kubernetes v1.11.1
 	sigs.k8s.io/controller-runtime v0.11.1
 	sigs.k8s.io/yaml v1.3.0
-)
-
-replace (
-	k8s.io/kubernetes => k8s.io/kubernetes v1.11.1
-	sigs.k8s.io/controller-tools => sigs.k8s.io/controller-tools v0.2.9
+    sigs.k8s.io/controller-tools v0.2.9
 )
 
 go 1.13
